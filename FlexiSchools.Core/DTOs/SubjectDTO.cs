@@ -1,4 +1,4 @@
-﻿using FlexiSchools.Core.Model.Common;
+﻿using FlexiSchools.Core.Entities.Common;
 using System;
 using System.Collections.Generic;
 using System.Linq;

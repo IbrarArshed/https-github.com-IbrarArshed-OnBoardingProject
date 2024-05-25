@@ -12,7 +12,7 @@ using static Microsoft.EntityFrameworkCore.DbLoggerCategory.Database;
 using FlexiSchools.Core.DTOs;
 using Microsoft.EntityFrameworkCore;
 using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
-using FlexiSchools.Core.Model;
+using FlexiSchools.Core.Entities;
 using FlexiSchools.Application.Lecture.Requests.Commands;
 
 namespace FlexiSchools.Application.Lecture.Handlers.Commands
@@ -43,7 +43,7 @@ namespace FlexiSchools.Application.Lecture.Handlers.Commands
             }
         }
 
-        private static SubjectDTO ModelMapper(Core.Model.Subject sub)
+        private static SubjectDTO ModelMapper(Core.Entities.Subject sub)
         {
             return new SubjectDTO
             {

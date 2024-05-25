@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 using FlexiSchools.Application.Lecture.Requests.Commands;
 using FlexiSchools.Application.Lecture.Requests.Queries;
 using FlexiSchools.Core.DTOs;
-using FlexiSchools.Core.Model;
+using FlexiSchools.Core.Entities;
 using static Microsoft.EntityFrameworkCore.DbLoggerCategory.Database;
 
 namespace FlexiSchools.Api.Controllers

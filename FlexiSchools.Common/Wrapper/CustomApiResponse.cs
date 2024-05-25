@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace FlexiSchools.Core.Wrapper
+namespace FlexiSchools.Common.Wrapper
 {
     public class CustomApiResponse
     {

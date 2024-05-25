@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using FlexiSchools.Core.Model;
+using FlexiSchools.Core.Entities;
 using FlexiSchools.Infrastructure.Database;
 using System;
 using System.Collections.Generic;

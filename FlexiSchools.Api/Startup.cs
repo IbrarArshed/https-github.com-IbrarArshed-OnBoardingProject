@@ -7,7 +7,7 @@ using Autofac;
 using FlexiSchools.Infrastructure.Database;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Migrations;
-using FlexiSchools.Core.Model;
+using FlexiSchools.Core.Entities;
 using Microsoft.AspNetCore.Identity;
 using FlexiSchools.Application;
 using FlexiSchools.Common;

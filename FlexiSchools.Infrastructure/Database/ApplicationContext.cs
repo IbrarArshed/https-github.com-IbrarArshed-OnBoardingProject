@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
-using FlexiSchools.Core.Model;
-using FlexiSchools.Core.Model.Common;
+using FlexiSchools.Core.Entities;
+using FlexiSchools.Core.Entities.Common;
 using System;
 using System.Collections.Generic;
 using System.Linq;

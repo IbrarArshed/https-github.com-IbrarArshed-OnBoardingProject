@@ -12,7 +12,7 @@ using static Microsoft.EntityFrameworkCore.DbLoggerCategory.Database;
 using FlexiSchools.Core.DTOs;
 using Microsoft.EntityFrameworkCore;
 using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
-using FlexiSchools.Core.Model;
+using FlexiSchools.Core.Entities;
 using FlexiSchools.Application.Lecture.Requests.Commands;
 
 namespace FlexiSchools.Application.Lecture.Handlers.Queries
@@ -69,7 +69,7 @@ namespace FlexiSchools.Application.Lecture.Handlers.Queries
         //{
         //    try
         //    {
-        //        var lecture = new FlexiSchools.Core.Model.Lecture();
+        //        var lecture = new FlexiSchools.Core.Entities.Lecture();
         //        lecture.Id = query.Id;
         //        lecture.SubjectId = query.SubjectId;
         //        lecture.LectureTheatreId = query.LectureTheatreId;

@@ -12,7 +12,7 @@ using static Microsoft.EntityFrameworkCore.DbLoggerCategory.Database;
 using FlexiSchools.Core.DTOs;
 using Microsoft.EntityFrameworkCore;
 using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
-using FlexiSchools.Core.Model;
+using FlexiSchools.Core.Entities;
 using FlexiSchools.Application.Lecture.Requests.Commands;
 using FlexiSchools.Application.LectureTheatre.Requests.Commands;
 
@@ -44,7 +44,7 @@ namespace FlexiSchools.Application.Students.Handlers.Commands
             }
         }
 
-        private static StudentDTO ModelMapper(Core.Model.Student lecture)
+        private static StudentDTO ModelMapper(Core.Entities.Student lecture)
         {
             return new StudentDTO
             {

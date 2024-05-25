@@ -7,7 +7,7 @@ using FlexiSchools.Application.LectureTheatre.Requests.Commands;
 using FlexiSchools.Application.LectureTheatre.Requests.Queries;
 using FlexiSchools.Application.Students.Requests.Commands;
 using FlexiSchools.Core.DTOs;
-using FlexiSchools.Core.Model;
+using FlexiSchools.Core.Entities;
 using static Microsoft.EntityFrameworkCore.DbLoggerCategory.Database;
 
 namespace FlexiSchools.Api.Controllers

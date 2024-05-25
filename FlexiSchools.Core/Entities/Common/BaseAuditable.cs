@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FlexiSchools.Core.Model.Common
+namespace FlexiSchools.Core.Entities.Common
 {
     public class BaseAuditable : BaseEntity
     {
